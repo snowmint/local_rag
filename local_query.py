@@ -7,8 +7,6 @@ from db_utils import get_recent_messages
 
 CHROMA_PATH = "chroma"
 
-# IT_SUPPORT_URL = "https://docs.google.com/forms/d/e/1FAIpQLSeF6dozhuoOPDxDhj6ldkN5RmTZjUa8maYATfHjUsFGtliPIA/viewform?pli=1"
-# ASSET_REGISTRATION_URL = "https://airtable.com/appaL6KyixMc59fZW/shrXBQYLiTR99nTkP"
 IT_SUPPORT_FORM = "IT_SUPPORT_LINK"
 ASSET_REGISTRATION_FORM = "ASSET_REGISTRATION_LINK"
 

@@ -20,6 +20,7 @@ logging.basicConfig(level=logging.DEBUG)
 # export SLACK_APP_TOKEN=xapp-***
 IT_SUPPORT_URL = "https://***"
 ASSET_REGISTRATION_URL = "https://***"
+
 IT_SUPPORT_FORM = f"<{IT_SUPPORT_URL}|IT Support>"
 ASSET_REGISTRATION_FORM = f"<{ASSET_REGISTRATION_URL}|Asset Registration>"
 
@@ -54,7 +55,8 @@ def protect_text(text):
         text = re.sub(re.escape(term), placeholder, text, flags=re.IGNORECASE)
 
     for url, placeholder in PROTECTED_URLS.items():
-        text = text.replace(url, placeholder)  # URL 用 `replace` 保持格式
+        # Use "replace" to keep URL format
+        text = text.replace(url, placeholder)
     return text
 
 
