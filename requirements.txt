@@ -7,3 +7,11 @@ chromadb # Vector storage
 pypdf
 pytest
 boto3
+#fastapi
+#uvicorn
+flask==2.2.2
+werkzeug==2.2.2
+requests
+slack-sdk
+redis
+ngrok
