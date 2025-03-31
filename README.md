@@ -6,6 +6,8 @@
 - Conda
 - Ollama
 - ngrok
+
+
 On Windows will need install MSVC C++14.0 development toolkits
 
 ## Create New Environment
