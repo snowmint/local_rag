@@ -18,8 +18,8 @@ logging.basicConfig(level=logging.DEBUG)
 # export SLACK_SIGNING_SECRET=***
 # export SLACK_BOT_TOKEN=xoxb-***
 # export SLACK_APP_TOKEN=xapp-***
-IT_SUPPORT_URL = "https://***"
-ASSET_REGISTRATION_URL = "https://***"
+IT_SUPPORT_URL = "https://docs.google.com/forms/d/e/1FAIpQLSeF6dozhuoOPDxDhj6ldkN5RmTZjUa8maYATfHjUsFGtliPIA/viewform?pli=1"
+ASSET_REGISTRATION_URL = "https://airtable.com/appaL6KyixMc59fZW/shrXBQYLiTR99nTkP"
 
 IT_SUPPORT_FORM = f"<{IT_SUPPORT_URL}|IT Support>"
 ASSET_REGISTRATION_FORM = f"<{ASSET_REGISTRATION_URL}|Asset Registration>"

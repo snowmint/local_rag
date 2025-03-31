@@ -1,17 +1,19 @@
-re
+regex
 langchain
 langchain-community
 langchain-chroma
 langchain-ollama
-chromadb # Vector storage
+chromadb
 pypdf
 pytest
 boto3
-#fastapi
-#uvicorn
 flask==2.2.2
 werkzeug==2.2.2
 requests
+slack-bolt
 slack-sdk
-redis
 ngrok
+langdetect
+googletrans
+langid
+asyncio
