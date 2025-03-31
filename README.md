@@ -12,6 +12,7 @@ On Windows will need install MSVC C++14.0 development toolkits
 
 ## Create New Environment
 `conda create --name <env_name> python=3.12`
+
 `conda activate <env_name>`
 
 ## Install Python dependency
@@ -30,7 +31,9 @@ db_utils.py
 
 ## Run Ollama
 `ollama pull mxbai-embed-large`
+
 `ollama pull llama3.1`
+
 `ollama serve`
 
 ## Run as Slack bot backend
