@@ -1,4 +1,6 @@
-/data/*.pdf
+/data/*
 /data/ignore.txt
 /starterbot/*
 /chroma/*
+/credentials/*
+/cache_log/*

@@ -43,3 +43,8 @@ db_utils.py
 ## If you change the ngrok url, you need to update the Event Subscriptions url in slack App page
 Change the request URL to:
 `https://<your_ngrok_url>.ngrok-free.app/slack/events`
+
+## Encoding error
+On Windows platform, default encoding method is cp1252, would incorrectly encode non-ASCII characters
+You can simply add encode/decode method in python
+`print(your_string.encode('utf-8').decode('utf-8'))`

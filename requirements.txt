@@ -17,3 +17,10 @@ langdetect
 googletrans
 langid
 asyncio
+pdfkit
+pdfplumber
+reportlab
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+beautifulsoup4
